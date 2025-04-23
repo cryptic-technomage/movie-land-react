@@ -3,7 +3,7 @@ import {useState,  useEffect } from "react";
 import './App.css';
 import SearchIcon from './search.svg';
 import MovieCard from "./MovieCard";
-const API_URL = "http://www.omdbapi.com?apikey=633e1d63"
+const API_URL = "https://www.omdbapi.com?apikey=633e1d63"
 const movie1 = {
     "Title": "Ivan Ironman Stewart's Super Off Road",
     "Year": "1989",
